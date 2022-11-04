@@ -6,9 +6,9 @@
     "require": {
         "php": "^8.0",
         "knplabs/knp-menu": "^3.1",
-        "monofony/admin-contracts": "^0.8",
-        "monofony/core": "^0.8",
-        "symfony/routing": "5.4.*"
+        "monofony/admin-contracts": "^0.9@dev",
+        "monofony/core": "^0.9@dev",
+        "symfony/routing": "^5.4 || ^6.0"
     },
     "autoload": {
         "psr-4": {
@@ -25,11 +25,11 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.8-dev"
+            "dev-master": "0.9-dev"
         }
     },
     "require-dev": {
-        "phpstan/phpstan": "^0.12",
+        "phpstan/phpstan": "^1.5",
         "friends-of-behat/page-object-extension": "^0.3"
     }
 }
